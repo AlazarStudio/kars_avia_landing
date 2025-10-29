@@ -13,12 +13,15 @@ function Header({ children, ...props }) {
                         <img src="/logo_header.png" alt="" />
                     </a>
                     <ul className={classes.headerLinks}>
-                        <li><a href="/price">Цены</a></li>
+                        {/* <li><a href="/price">Цены</a></li>
                         <li><a href="/documentation">Документация</a></li>
-                        <li><a href="/support">Поддержка</a></li>
+                        <li><a href="/support">Поддержка</a></li> */}
+                        <li><a href="/">Цены</a></li>
+                        <li><a href="/">Документация</a></li>
+                        <li><a href="/">Поддержка</a></li>
                     </ul>
                     <div className={classes.headerBtns}>
-                        <a href="#" className={classes.fill}>Получить демо-версию</a>
+                        <a href="https://demo.karsavia.ru" target="_blank" className={classes.fill}>Получить демо-версию</a>
                         <a href="https://karsavia.ru" target="_blank" className={classes.outline}>Войти</a>
                     </div>
 

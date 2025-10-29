@@ -62,11 +62,23 @@
 .outline {
     border: 1px solid #0057C3;
     color: #0057C3;
+    transition: all 0.3s ease-in-out;
+}
+
+.outline:hover {
+    background-color: #0057C3;
+    color: #fff;
 }
 
 .fill {
     border: 1px solid transparent;
     background-color: #0057C3;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.fill:hover {
+    background-color: #00306b;
     color: #fff;
 }
 
@@ -117,11 +129,12 @@
     display: none;
 }
 
-.headerMenu{
+.headerMenu {
     display: none;
 }
 
 @media (max-width: 450px) {
+
     .headerLinks,
     .headerBtns {
         display: none;
@@ -215,7 +228,7 @@
         padding: 10px 30px;
     }
 
-    .headerMenu{
+    .headerMenu {
         display: flex;
     }
 }

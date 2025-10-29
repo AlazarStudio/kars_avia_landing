@@ -15,7 +15,7 @@ function DemoBlock({ children, ...props }) {
                     где каждая заявка обрабатывается автоматически
                     — от бронирования до отчётности.
                 </div>
-                <a href="#" className={`${classes.demoBlockInfo_btn} ${classes.fill}`}>
+                <a href="https://demo.karsavia.ru" target="_blank" className={`${classes.demoBlockInfo_btn} ${classes.fill}`}>
                     Получить демо-версию
                 </a>
             </div>

@@ -412,7 +412,7 @@ function Moduls({ children, ...props }) {
                 <div className={classes.modul_kars_desc}>
                     Оцифруйте управление экипажами и получите контроль, скорость и прозрачность, которых невозможно достичь при ручной работе.
                 </div>
-                <a href="#" className={classes.modul_kars_btn}>Получить демо-версию</a>
+                <a href="https://demo.karsavia.ru" target="_blank" className={classes.modul_kars_btn}>Получить демо-версию</a>
             </div>
         </>
     );
