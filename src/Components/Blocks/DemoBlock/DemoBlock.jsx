@@ -19,6 +19,7 @@ function DemoBlock({ children, ...props }) {
                     Получить демо-версию
                 </a>
             </div>
+            <img src="demoBlockBack.png" alt="" className={classes.demoBlockBack} />
         </div>
     );
 }

@@ -1,12 +1,19 @@
 .demoBlock {
     width: 100%;
     height: 834px;
-    background: url("/demoBlockBack.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.demoBlockBack{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
 }
 
 .demoBlockInfo {
@@ -16,6 +23,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .demoBlockInfo_title {
