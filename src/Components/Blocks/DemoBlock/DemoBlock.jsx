@@ -20,6 +20,7 @@ function DemoBlock({ children, ...props }) {
                 </a>
             </div>
             <img src="demoBlockBack.png" alt="" className={classes.demoBlockBack} />
+            <img src="demoBlockMobile.png" alt="" className={classes.demoBlockBackMobile} />
         </div>
     );
 }

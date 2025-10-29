@@ -485,7 +485,7 @@
     margin-top: 25px;
 }
 
-.modul_kars_btn{
+.modul_kars_btn {
     background-color: #0057C3;
     border-radius: 20px;
     display: flex;
@@ -494,4 +494,277 @@
     color: #FFFFFF;
     padding: 20px 30px;
     margin-top: 35px;
+}
+
+.modul_imgMOB,
+.lineVertical,
+.dnm {
+    display: none;
+}
+
+
+@media (max-width: 450px) {
+    .modulFill {
+        width: 100%;
+        padding: 25px 20px;
+        border-radius: 0;
+    }
+
+    .modul_img {
+        margin: 0;
+    }
+
+    .modul_title {
+        font-size: 24px;
+    }
+
+    .modul_desc {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .modul_imgPC {
+        display: none;
+    }
+
+    .modul_imgMOB {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    /* ------------------------------- */
+
+    .modulOutline {
+        width: 100%;
+        padding: 0 20px;
+        border-radius: 0;
+        border: none;
+    }
+
+    .modul_dispetcher_title {
+        flex-direction: column;
+        padding: 0;
+        gap: 30px;
+    }
+
+    .modul_dispetcher_title_right {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .modul_dispetcher_steps {
+        padding: 0;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .modul_dispetcher_img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .modul_dispetcher_steps_item {
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .lineVertical {
+        display: flex;
+    }
+
+    .dn {
+        display: none;
+    }
+
+    .dnm{
+        display: flex;
+        border-radius: 10px;
+    }
+
+    /* --------------------------------- */
+
+    .modul_bottom{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 30px;
+    }
+
+    .modul_bottom_left{
+        width: 100%;
+    }
+
+    .modul_bottom_right{
+        width: 100%;
+    }
+
+    .modul_bottom_left_desc{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .modul_bottom_left_list li span {
+        font-size: 14px;
+    }
+
+    .modul_bottom_left_list{
+        margin-bottom: 30px;
+    }
+
+    .modul_bottom_left_boldDesk{
+        font-size: 14px;
+    }
+
+    .modul_bottom_left_colorDesk{
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+    /* ------------------------------ */
+
+    .modul{
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .modulList{
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .modulList li{
+        width: 100%;
+        padding: 16px;
+        gap: 20px;
+    }
+
+    .modulBottomBlue{
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 13px;
+        margin: 0;
+        border-radius: 10px;
+    }
+
+    .modulList_img{
+        height: fit-content;
+    }
+
+    .modulListTitle_num{
+        width: 44px;
+        height: 44px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .modulListTitle_text{
+        font-size: 12px;
+        width: calc(100% - 54px);
+    }
+
+    .modulListTitle{
+        gap: 10px;
+        border-radius: 10px;
+    }
+
+    .modul_dispetcher_steps{
+        gap: 20px;
+    }
+
+    .mng{
+        gap: 0;
+    }
+
+    .modulTransferNum2{
+        height: 260px;
+    }
+
+    .modulTransferNum2_title{
+        width: 95%;
+    }
+
+    .modulList .modulTransferUpd{
+        flex-direction: column;
+    }
+
+    .modulBottomBlue_title{
+        font-size: 20px;
+    }
+
+    .modulBottomBlue_text{
+        font-size: 14px;
+    }
+
+    /* ------------------------------- */
+
+    .whyChoose{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .whyChoose_right{
+        order: 1;
+        width: 100%;
+    }
+
+    .whyChoose_left{
+        order: 2;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .whyChoose_left img{
+        width: 100%;
+    }
+
+    .whyChoose_right_title{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .whyChoose_right ul{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .colorBlock{
+        border-radius: 10px;
+    }
+
+    .infoBlock{
+        font-size: 14px;
+        width: calc(100% - 67px);
+        padding-right: 10px;
+    }
+
+    .whyChoose_right ul li{
+        gap: 10px;
+        border-radius: 10px;
+    }
+
+    /* ------------------------------- */
+
+    .modul_kars_title{
+        font-size: 24px;
+    }
+
+    .modul_kars_desc{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .modul_kars_btn{
+        font-size: 14px;
+    }
+
+    .mobileMargin{
+        margin-bottom: 80px;
+        display: flex;
+    }
 }

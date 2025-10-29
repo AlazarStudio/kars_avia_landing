@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.demoBlockBack{
+.demoBlockBack {
     position: absolute;
     top: 0;
     left: 0;
@@ -70,4 +70,48 @@
     border: 1px solid transparent;
     background-color: #0057C3;
     color: #fff;
+}
+
+.demoBlockBackMobile {
+    display: none;
+}
+
+
+@media (max-width: 450px) {
+    .demoBlock {
+        height: fit-content;
+        flex-direction: column;
+        background-color: #05080F;
+        margin-top: 74px;
+    }
+
+    .demoBlockInfo {
+        width: 100%;
+        display: flex;
+        padding: 50px 30px 0;
+        gap: 30px;
+    }
+
+    .demoBlockBack {
+        display: none;
+    }
+
+    .demoBlockBackMobile {
+        display: flex;
+        width: 100%;
+    }
+
+    .demoBlockInfo_title {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .demoBlockInfo_desc{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .demoBlockInfo_btn{
+        font-size: 14px;
+    }
 }

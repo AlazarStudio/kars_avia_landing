@@ -22,7 +22,7 @@ function Main_Page({ children, ...props }) {
         <main style={{
             display: 'flex',
             flexDirection: 'column',
-            alignItems: 'center'
+            alignItems: 'center',
         }}>
             <DemoBlock />
             <Moduls />
