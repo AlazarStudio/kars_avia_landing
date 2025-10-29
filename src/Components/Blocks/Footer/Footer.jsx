@@ -45,9 +45,11 @@ function Footer({ children, ...props }) {
                     </div>
                 </div>
                 <div className={classes.footerBottom}>
-                    <a href="#" className={classes.footerBottom_column}>Политика конфиденциальности</a>
-                    <a href="#" className={classes.footerBottom_column}>Пользовательское соглашение</a>
-                    <a href="https://alazarstudio.ru" target="_blank" className={classes.footerBottom_column}><img src="alazar_light.png" alt="" /></a>
+                    <div className={classes.footerBottom_line}>
+                        <a href="#" className={classes.footerBottom_column}>Политика конфиденциальности</a>
+                        <a href="#" className={classes.footerBottom_column}>Пользовательское соглашение</a>
+                    </div>
+                    <a href="https://alazarstudio.ru" target="_blank" ><img src="alazar_light.png" alt="" /></a>
                 </div>
             </div>
         </footer>

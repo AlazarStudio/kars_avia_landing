@@ -21,55 +21,55 @@ function Header({ children, ...props }) {
 
             <ul className={classes.bottom}>
                 <li>
-                    <a href="#">
+                    <a href="#applications">
                         Заявки
                         <img src="link1.png" alt="" />
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#dispatchers">
                         Диспетчеры
                         <img src="link2.png" alt="" />
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#placements">
                         Размещения
                         <img src="link3.png" alt="" />
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#airlines">
                         Авиакомпании
                         <img src="link4.png" alt="" />
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#analytics">
                         Аналитика
                         <img src="link5.png" alt="" />
                     </a>
                 </li>
                 <li>
-                    <a href="#" className={classes.long}>
+                    <a href="#contracts_and_reporting" className={classes.long}>
                         Договоры и отчётность
                         <img src="link6.png" alt="" />
                     </a>
                 </li>
                 <li>
-                    <a href="#" className={classes.middle}>
+                    <a href="#users_and_security" className={classes.middle}>
                         Пользователи и безопасность
                         <img src="link7.png" alt="" />
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#transfer">
                         Трансфер
                         <img src="link8.png" alt="" />
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#representative">
                         Представительства
                         <img src="link9.png" alt="" />
                     </a>

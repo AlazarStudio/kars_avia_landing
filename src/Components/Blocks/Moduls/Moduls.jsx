@@ -8,6 +8,8 @@ function Moduls({ children, ...props }) {
         //      <div className={classes.modul_desc}></div>
         // </div>
         <>
+
+            <a name="applications"></a>
             <div className={classes.modulFill}>
                 <div className={classes.modul_title}>Модуль заявок</div>
                 <div className={classes.modul_desc}>Создавайте заявки на размещение экипажей напрямую в системе.</div>
@@ -16,6 +18,7 @@ function Moduls({ children, ...props }) {
                 </div>
             </div>
 
+            <a name="dispatchers"></a>
             <div className={classes.modulOutline}>
                 <div className={classes.modul_dispetcher_title}>
                     <div className={classes.modul_dispetcher_title_left}>
@@ -46,6 +49,7 @@ function Moduls({ children, ...props }) {
                 </div>
             </div>
 
+            <a name="placements"></a>
             <div className={classes.modulFill}>
                 <div className={classes.modul_title}>Модуль размещения (интеграция с гостиницами)</div>
                 <div className={classes.modul_bottom}>
@@ -83,6 +87,7 @@ function Moduls({ children, ...props }) {
                 </div>
             </div>
 
+            <a name="airlines"></a>
             <div className={classes.modul}>
                 <div className={classes.modul_title}>Модуль авиакомпаний</div>
                 <div className={classes.modul_desc}>Единое пространство для управления персоналом и проживанием:</div>
@@ -140,6 +145,7 @@ function Moduls({ children, ...props }) {
                 </div>
             </div>
 
+            <a name="analytics"></a>
             <div className={classes.modul}>
                 <div className={classes.modul_title}>Модуль аналитики</div>
                 <div className={classes.modul_desc}>Вся статистика — в одном месте:</div>
@@ -196,6 +202,7 @@ function Moduls({ children, ...props }) {
                 </div>
             </div>
 
+            <a name="contracts_and_reporting"></a>
             <div className={classes.modulFill}>
                 <div className={classes.modul_title}>Модуль договоров и отчётности</div>
                 <div className={classes.modul_desc}>Все документы — в цифровом виде:</div>
@@ -220,6 +227,7 @@ function Moduls({ children, ...props }) {
                 </div>
             </div>
 
+            <a name="users_and_security"></a>
             <div className={classes.modulFill}>
                 <div className={classes.modul_title}>Модуль пользователей и безопасности</div>
                 <div className={classes.modul_desc}>KarsAvia учитывает внутреннюю структуру авиакомпании:</div>
@@ -244,6 +252,7 @@ function Moduls({ children, ...props }) {
                 </div>
             </div>
 
+            <a name="transfer"></a>
             <div className={classes.modul}>
                 <div className={classes.modul_title}>Модуль трансфера</div>
                 <div className={classes.modul_desc}>Организация перемещений экипажей «под рейс»:</div>
@@ -305,6 +314,7 @@ function Moduls({ children, ...props }) {
                 </div>
             </div>
 
+            <a name="representative"></a>
             <div className={classes.modulOutline}>
                 <div className={classes.modul_title}>Модуль представительств <br />(пассажиры и внештатные ситуации)</div>
                 <div className={classes.modul_desc}>Оперативная работа на местах и при IRROPs:</div>
