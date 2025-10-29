@@ -1,0 +1,154 @@
+.price {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.price_center {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.price_left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 60%;
+}
+
+.price_left_title {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.price_left_desk {
+    font-weight: 400;
+    font-style: Book;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.price_left_list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.price_left_list ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.price_right {
+    padding: 60px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    background: #F8FAFF;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.price_right_title {
+    font-weight: 600;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000;
+}
+
+.price_right_link {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color: #000;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.price_right_karsavia {
+    font-weight: 400;
+    font-style: Book;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #545873;
+}
+
+
+@media (max-width: 450px) {
+    .price_center {
+        width: 100%;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .price_left {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .price_right {
+        width: 100%;
+        padding: 30px;
+        gap: 30px;
+        border-radius: 0;
+    }
+
+    .price_left_title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .price_left_desk {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .price_left_list_text {
+        font-weight: 400;
+        font-style: Book;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+    }
+
+    .price_right_title{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .price_right_link{
+        font-size: 20px;
+    }
+
+    .price_right_karsavia{
+        font-size: 14px;
+    }
+}

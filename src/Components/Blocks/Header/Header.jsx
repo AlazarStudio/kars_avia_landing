@@ -16,7 +16,7 @@ function Header({ children, ...props }) {
                         {/* <li><a href="/price">Цены</a></li>
                         <li><a href="/documentation">Документация</a></li>
                         <li><a href="/support">Поддержка</a></li> */}
-                        <li><a href="/">Цены</a></li>
+                        <li><a href="/price">Цены</a></li>
                         <li><a href="/">Документация</a></li>
                         <li><a href="/">Поддержка</a></li>
                     </ul>
@@ -54,20 +54,20 @@ function Header({ children, ...props }) {
                 <div className={classes.mobileHeader_line}><a href="/documentation">Документация</a></div>
                 <div className={classes.mobileHeader_line}><a href="/support">Поддержка</a></div> */}
 
-                <div className={classes.mobileHeader_line}><a href="/">Цены</a></div>
+                <div className={classes.mobileHeader_line}><a href="/price">Цены</a></div>
                 <div className={classes.mobileHeader_line}><a href="/">Документация</a></div>
                 <div className={classes.mobileHeader_line}><a href="/">Поддержка</a></div>
                 <div>
                     <ul className={classes.bottom}>
-                        <li><a href="#applications">Заявки<img src="link1.png" alt="" /></a></li>
-                        <li><a href="#dispatchers">Диспетчеры<img src="link2.png" alt="" /></a></li>
-                        <li><a href="#placements">Размещения<img src="link3.png" alt="" /></a></li>
-                        <li><a href="#airlines">Авиакомпании<img src="link4.png" alt="" /></a></li>
-                        <li><a href="#analytics">Аналитика<img src="link5.png" alt="" /></a></li>
-                        <li><a href="#transfer">Трансфер<img src="link8.png" alt="" /></a></li>
-                        <li className={classes.fullWidth}><a href="#contracts_and_reporting">Договоры и отчётность<img src="link6.png" alt="" /></a></li>
-                        <li className={classes.fullWidth}><a href="#users_and_security">Пользователи и безопасность<img src="link7.png" alt="" /></a></li>
-                        <li className={classes.fullWidth}><a href="#representative">Представительства<img src="link9.png" alt="" /></a></li>
+                        <li><a href="/#applications">Заявки<img src="link1.png" alt="" /></a></li>
+                        <li><a href="/#dispatchers">Диспетчеры<img src="link2.png" alt="" /></a></li>
+                        <li><a href="/#placements">Размещения<img src="link3.png" alt="" /></a></li>
+                        <li><a href="/#airlines">Авиакомпании<img src="link4.png" alt="" /></a></li>
+                        <li><a href="/#analytics">Аналитика<img src="link5.png" alt="" /></a></li>
+                        <li><a href="/#transfer">Трансфер<img src="link8.png" alt="" /></a></li>
+                        <li className={classes.fullWidth}><a href="/#contracts_and_reporting">Договоры и отчётность<img src="link6.png" alt="" /></a></li>
+                        <li className={classes.fullWidth}><a href="/#users_and_security">Пользователи и безопасность<img src="link7.png" alt="" /></a></li>
+                        <li className={classes.fullWidth}><a href="/#representative">Представительства<img src="link9.png" alt="" /></a></li>
                     </ul>
                 </div>
             </div>

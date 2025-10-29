@@ -717,6 +717,7 @@
     .whyChoose_right {
         order: 1;
         width: 100%;
+        margin: 0;
     }
 
     .whyChoose_left {
