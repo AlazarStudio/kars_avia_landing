@@ -6,6 +6,7 @@
     align-items: center;
     padding: 25px 0;
     gap: 30px;
+    overflow: hidden;
 }
 
 .top {
@@ -133,7 +134,7 @@
     display: none;
 }
 
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 1250px) {
 
     .headerLinks,
     .headerBtns {

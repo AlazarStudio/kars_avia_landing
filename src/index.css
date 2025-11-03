@@ -23,6 +23,7 @@ main {
     flex-direction: column;
     gap: 80px;
     padding-bottom: 80px;
+    overflow: hidden;
 }
 
 .topArrow {
@@ -41,7 +42,7 @@ main {
 }
 
 
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 1250px) {
     main {
         gap: 0px;
     }

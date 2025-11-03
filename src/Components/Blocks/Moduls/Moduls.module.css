@@ -509,7 +509,7 @@
 }
 
 
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 1250px) {
     .modulFill {
         width: 100%;
         padding: 25px 20px;

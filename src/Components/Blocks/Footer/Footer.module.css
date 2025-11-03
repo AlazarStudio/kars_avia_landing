@@ -123,7 +123,7 @@
     display: none;
 }
 
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 1250px) {
     .footer {
         padding: 35px;
     }
