@@ -6,7 +6,7 @@ function DemoBlock({ children, ...props }) {
         <div className={classes.demoBlock}>
             <div className={classes.demoBlockInfo}>
                 <div className={classes.demoBlockInfo_title}>
-                    KarsAvia — единая система управления размещением экипажей и пассажиров авиакомпаний
+                    KARS AVIA система ПО автоматизации и реализации размещения, трансфера эстафет и исполнения ФАП 82
                 </div>
                 <div className={classes.demoBlockInfo_desc}>
                     Больше никаких звонков и бесконечных писем.

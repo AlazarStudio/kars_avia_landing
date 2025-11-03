@@ -22,7 +22,7 @@ function Moduls({ children, ...props }) {
                         <div className={classes.modul_desc}>Ваши заявки обрабатываются мгновенно:</div>
                     </div>
                     <div className={`${classes.modul_dispetcher_title_right} ${classes.dn}`}>
-                        KarsAvia устраняет человеческий фактор и ускоряет процесс размещения экипажа в разы
+                        Карс Авиа минимизирует человеческий фактор и оптимизирует процессы организации эстафеты и ФАП 82 в разы
                     </div>
                 </div>
 
@@ -78,15 +78,19 @@ function Moduls({ children, ...props }) {
                         <ul className={classes.modul_bottom_left_list}>
                             <li>
                                 <img src="hotelsList1.png" alt="" />
-                                <span>Актуальный список доступных отелей, прошедших сертификацию и проверку;</span>
+                                <span>Актуальный список доступных отелей, прошедших сертификацию и проверку</span>
                             </li>
                             <li>
                                 <img src="hotelsList2.png" alt="" />
-                                <span>Прозрачный процесс подбора — без переписки и ожидания подтверждения;</span>
+                                <span>Прозрачный процесс подбора — без переписки и ожидания подтверждения</span>
                             </li>
                             <li>
                                 <img src="hotelsList3.png" alt="" />
-                                <span>Автоматическое уведомление о размещении и деталях бронирования.</span>
+                                <span>Автоматическое уведомление о размещении и деталях бронирования</span>
+                            </li>
+                            <li>
+                                <img src="hotelsList4.png" alt="" style={{width: '28px', height: '28px'}}/>
+                                <span>Цены по всем услугам  ниже рынка от 15% (спецтарифы)</span>
                             </li>
                         </ul>
                         <div className={classes.modul_bottom_left_boldDesk}>
