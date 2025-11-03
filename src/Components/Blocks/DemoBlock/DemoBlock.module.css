@@ -121,3 +121,22 @@
         font-size: 14px;
     }
 }
+
+
+@media (min-width: 1251px) and (max-width: 1600px) {
+    .demoBlockInfo {
+        width: 100%;
+        display: flex;
+        padding: 50px;
+        gap: 30px;
+    }
+
+    .demoBlock {
+        height: fit-content;
+        padding: 50px;
+    }
+
+    .demoBlockBack{
+        width: auto;
+    }
+}

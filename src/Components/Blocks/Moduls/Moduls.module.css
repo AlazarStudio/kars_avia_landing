@@ -775,3 +775,53 @@
         display: flex;
     }
 }
+
+
+@media (min-width: 1251px) and (max-width: 1600px) {
+
+    .modulFill,
+    .modulOutline,
+    .modul {
+        width: 90%;
+    }
+
+    .modul_dispetcher_steps {
+        padding: 0 50px;
+    }
+
+    .stepsTopUpd{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .stepsUpd4{
+        width: 40%;
+    }
+
+    .whyChoose_left{
+        width: 45%;
+        height: 100%;
+    }
+
+    .whyChoose_right{
+        width: 55%;
+    }
+
+    .whyChoose_right ul{
+        width: 90%;
+    }
+    .whyChoose_right ul li{
+        padding-right: 10px;
+    }
+
+    .whyChoose_left img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .infoBlock{
+        width: calc(100% - 87px);
+    }
+}
