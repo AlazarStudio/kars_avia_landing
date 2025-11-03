@@ -824,4 +824,18 @@
     .infoBlock{
         width: calc(100% - 87px);
     }
+
+    .modul_dispetcher_title{
+        gap: 20px;
+    }
+
+    .modul_desc{
+        text-align: center;
+    }
+
+    .modul_dispetcher_title_right{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
 }
