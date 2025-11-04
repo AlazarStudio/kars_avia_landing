@@ -150,7 +150,7 @@ function App() {
             background:
               toast.type === "success"
                 ? "linear-gradient(90deg,#0057C3,#0057C3)"
-                : "linear-gradient(90deg,#0057C3,#0057C3)",
+                : "linear-gradient(90deg,#e74c3c,#c0392b)",
             color: "#fff",
             padding: "14px 20px",
             borderRadius: 10,
