@@ -5,10 +5,10 @@ import Header from "../../Blocks/Header/Header"
 import Footer from "../../Blocks/Footer/Footer";
 
 
-function Empty({ children, ...props }) {
+function Empty({ children, setDemoOpen, ...props }) {
     return (
         <>
-            <Header/>
+            <Header setDemoOpen={setDemoOpen}/>
             <Outlet />
             <Footer/>
         </>

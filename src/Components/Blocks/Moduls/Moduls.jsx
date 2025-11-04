@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './Moduls.module.css';
 
-function Moduls({ children, ...props }) {
+function Moduls({ children, setDemoOpen, ...props }) {
     return (
         <>
             <a className={classes.mobileMargin} id="applications"></a>
@@ -89,7 +89,7 @@ function Moduls({ children, ...props }) {
                                 <span>Автоматическое уведомление о размещении и деталях бронирования</span>
                             </li>
                             <li>
-                                <img src="hotelsList4.png" alt="" style={{width: '28px', height: '28px'}}/>
+                                <img src="hotelsList4.png" alt="" style={{ width: '28px', height: '28px' }} />
                                 <span>Цены по всем услугам  ниже рынка от 15% (спецтарифы)</span>
                             </li>
                         </ul>
@@ -416,7 +416,7 @@ function Moduls({ children, ...props }) {
                 <div className={classes.modul_kars_desc}>
                     Оцифруйте управление экипажами и получите контроль, скорость и прозрачность, которых невозможно достичь при ручной работе.
                 </div>
-                <a href="https://demo.karsavia.ru" target="_blank" className={classes.modul_kars_btn}>Получить демо-версию</a>
+                <div onClick={() => { setDemoOpen(true) }} target="_blank" className={classes.modul_kars_btn}>Получить демо-версию</div>
             </div>
         </>
     );

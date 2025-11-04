@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import classes from './Header.module.css';
 
 
-function Header({ children, ...props }) {
+function Header({ children, setDemoOpen, ...props }) {
     const [showMenu, setMenu] = useState(false);
 
     return (
@@ -21,7 +21,7 @@ function Header({ children, ...props }) {
                         <li><a href="/">Поддержка</a></li>
                     </ul>
                     <div className={classes.headerBtns}>
-                        <a href="https://demo.karsavia.ru" target="_blank" className={classes.fill}>Получить демо-версию</a>
+                        <a onClick={() => { setDemoOpen(true) }} target="_blank" className={classes.fill}>Получить демо-версию</a>
                         <a href="https://karsavia.ru" target="_blank" className={classes.outline}>Войти</a>
                     </div>
 

@@ -64,6 +64,8 @@
     line-height: 150%;
     letter-spacing: 0%;
     vertical-align: middle;
+
+    cursor: pointer;
 }
 
 .fill {

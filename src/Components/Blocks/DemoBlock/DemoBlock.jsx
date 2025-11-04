@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './DemoBlock.module.css';
 
-function DemoBlock({ children, ...props }) {
+function DemoBlock({ children, setDemoOpen, ...props }) {
     return (
         <div className={classes.demoBlock}>
             <div className={classes.demoBlockInfo}>
@@ -15,9 +15,9 @@ function DemoBlock({ children, ...props }) {
                     где каждая заявка обрабатывается автоматически
                     — от бронирования до отчётности.
                 </div>
-                <a href="https://demo.karsavia.ru" target="_blank" className={`${classes.demoBlockInfo_btn} ${classes.fill}`}>
+                <div target="_blank" className={`${classes.demoBlockInfo_btn} ${classes.fill}`} onClick={() => { setDemoOpen(true) }}>
                     Получить демо-версию
-                </a>
+                </div>
             </div>
             <img src="demoBlockBack.png" alt="" className={classes.demoBlockBack} />
             <img src="demoBlockMobile.png" alt="" className={classes.demoBlockBackMobile} />
