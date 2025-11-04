@@ -79,16 +79,51 @@ function App() {
   const [demoOpen, setDemoOpen] = useState(false);
   const [toast, setToast] = useState(null);
 
-  const handleSubmitDemo = (payload) => {
-    console.log("Заявка на демо:", payload);
-    setToast({
-      type: "success",
-      message: "Заявка отправлена! Мы свяжемся с вами в ближайшее время.",
+  const handleSubmitDemo = async (payload) => {
+  try {
+    // Соберём услуги в строку (на сервер идёт одна строка)
+    const services = (payload.services || [])
+      .filter(Boolean)
+      .join(', ');
+
+    const res = await fetch("/php/send_mail.php", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      },
+      body: new URLSearchParams({
+        companyName: payload.companyName,
+        innKpp: payload.innKpp,
+        region: payload.region,
+        services, // "Организация эстафеты, Услуги ФАП 82"
+        departmentName: payload.departmentName,
+        specialistContacts: payload.specialistContacts,
+        source: window.location.href,
+        website: "" // honeypot (оставляем пустым)
+      }),
     });
 
-    // автоматически убираем через 4 сек
-    setTimeout(() => setToast(null), 4000);
-  };
+    const text = await res.text();
+
+    if (res.ok && text.trim() === "Success") {
+      setToast({
+        type: "success",
+        message: "Заявка успешно отправлена! Мы свяжемся с вами в ближайшее время.",
+      });
+    } else {
+      throw new Error(text || "Ошибка при отправке");
+    }
+  } catch (e) {
+    setToast({
+      type: "error",
+      message: "Не удалось отправить заявку. Попробуйте позже.",
+    });
+    console.error(e);
+  } finally {
+    setTimeout(() => setToast(null), 5000);
+  }
+};
+
   return (
     <>
       <Routes>

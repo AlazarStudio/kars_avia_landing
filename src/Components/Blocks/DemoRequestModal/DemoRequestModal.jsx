@@ -165,6 +165,14 @@ export default function DemoRequestModal({ open, onClose, onSubmit }) {
                         />
                     </label>
 
+                    <input
+                        type="text"
+                        name="website"
+                        autoComplete="off"
+                        tabIndex="-1"
+                        style={{ position: "absolute", left: "-9999px", opacity: 0 }}
+                        aria-hidden="true"
+                    />
                     <div style={styles.actions}>
                         <button type="button" onClick={onClose} style={styles.secondaryBtn}>Отмена</button>
                         <button type="submit" style={styles.primaryBtn}>Отправить заявку</button>
